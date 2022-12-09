@@ -93,6 +93,7 @@
 
 .signup_btn, .signup_input{
     height: 70px;
+    border: none;
 }
 
 .signup_btn{
