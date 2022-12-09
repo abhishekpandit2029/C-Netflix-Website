@@ -1,0 +1,19 @@
+.Weblogo{
+    height: 9vh;
+} 
+
+.navbtn{
+    background-color: #E50914;
+    border: none;
+}
+
+.navbtn:hover{
+    background-color: #E50914; 
+}
+
+.toggle{
+    height: auto;
+    padding: 5px 7px;
+    background-color: #E50914;
+}
+

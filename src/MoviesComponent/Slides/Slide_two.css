@@ -1,0 +1,25 @@
+#tv_container_two {
+  width: 600px;
+  height: 450px;
+  position: relative;
+  background: #000000;
+  z-index: 1;
+}
+
+.monitor_two {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.leftside_two{
+  color: white;
+}
+
+.container_two{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

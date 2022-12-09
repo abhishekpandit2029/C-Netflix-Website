@@ -1,0 +1,141 @@
+.signUpHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 50px 0 50px;
+    border: 5px solid wheat;
+}
+
+.signup_logo{
+    display: inline;
+    width: 165px;
+    cursor: pointer;
+    /* border: 5px solid wheat; */
+}
+
+/* .signup_btn{ 
+
+} */
+
+.signup_container{
+    text-align: center;
+    margin: 90px 0 auto;
+    padding: 50px;
+    box-sizing: content-box;
+    /* border: 5px solid wheat; */
+
+}
+ 
+.signup_p1{
+    font-size: 63px;
+    font-weight: 700;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    line-height: 60px;
+}
+
+@media screen and (max-width: 750px) {
+    .signup_p1 { 
+       font-size: 45px; 
+       line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .signup_p1 { 
+       font-size: 30px; 
+       line-height: 30px;
+    }
+}
+
+.signup_p2{
+    font-size: 30px;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 750px) {
+    .signup_p2 { 
+       font-size: 22.5px; 
+       margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .signup_p2 { 
+       font-size: 15px; 
+       margin-bottom: 5px;
+    }
+}
+
+.signup_p3{
+    font-size: 20px;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 750px) {
+    .signup_p3 { 
+       font-size: 17px; 
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .signup_p3 { 
+       font-size: 15px; 
+    }
+}
+
+.signup_secondLine{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.signup_btn, .signup_input{
+    height: 70px;
+}
+
+.signup_btn{
+    width: 250px;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    font-weight: 200;
+    font-size: x-large;
+    background-color: #E50914;
+    color: white;
+}
+
+.signup_input{
+    width: 500px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .signup_btn{ 
+       height: 60px;
+       width: 225px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .signup_btn{ 
+       height: 50px;
+       width: 200px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .signup_input{ 
+       height: 60px;
+       width: 450px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .signup_input{ 
+       height: 50px;
+       width: 400px;
+    }
+}

@@ -1,0 +1,25 @@
+#tv_container_four {
+  width: 600px;
+  height: 450px;
+  position: relative;
+  background: #000000;
+  z-index: 1;
+}
+
+.monitor_four {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420");
+  background-position: center;
+  background-size: cover;
+}
+
+.leftside_four{
+  color: white;
+}
+
+.container_four{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
