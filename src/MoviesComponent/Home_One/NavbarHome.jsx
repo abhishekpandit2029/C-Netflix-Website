@@ -10,7 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function NavbarHome() {
   return (
     <div>
-        <Navbar expand="lg" className='px-4'>
+        <Navbar expand="lg" className='nav px-5'>
             <Container fluid>
             <Navbar.Brand><img className='Weblogo' src={netflix_PNG} alt='Netflix logo'/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" data-bs-toggle="button" className="toggle"></Navbar.Toggle>
@@ -24,7 +24,7 @@ function NavbarHome() {
             </Navbar.Collapse>
             </Container>
         </Navbar>
-</div>
+    </div>
   );
 }
 

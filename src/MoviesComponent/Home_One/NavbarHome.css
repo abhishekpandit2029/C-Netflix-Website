@@ -1,7 +1,11 @@
 .Weblogo{
-    height: 9vh;
+    height: 13vh;
 } 
 
+.nav{
+    z-index: 1;
+}
+ 
 .navbtn{
     background-color: #E50914;
     border: none;
@@ -15,5 +19,23 @@
     height: auto;
     padding: 5px 7px;
     background-color: #E50914;
+}
+
+@media screen and (max-width: 750px) {
+    .Weblogo{
+        height: 9vh;
+    } 
+    .toggle { 
+       padding: 3px 5px; 
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .Weblogo{
+        height: 9vh;
+    } 
+    .toggle { 
+       padding: 2px 3px; 
+    }
 }
 
