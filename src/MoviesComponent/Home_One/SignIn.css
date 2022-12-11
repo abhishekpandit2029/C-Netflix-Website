@@ -17,11 +17,17 @@
     height: auto;
 }
 
+@media screen and (max-width: 450px){
+    .container{
+        padding: 50px 35px;
+    }
+}
+
 .signininput{
     width: 100%;
     height: 50px;
     padding: 15px;
-    margin: 5px 0 22px 0;
+    margin: 5px 0 10px 0;
     border: none;
     background: #f1f1f1;
     border-radius: 5px;
@@ -34,6 +40,7 @@
     background-color: #E50914;
     border-radius: 5px;
     border: none;
+    margin: 25px 0 0 0;
 }
 
 .signinnav{

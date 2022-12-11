@@ -8,9 +8,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
  
 function NavbarHome() {
-  return (
+  return ( 
     <div> 
-        <Navbar expand="lg" className='nav px-5'>
+        <Navbar expand="lg" className='nav px-lg-5 px-md-5'>
             <Container fluid>
             <Navbar.Brand><img className='Weblogo' src={netflix_PNG} alt='Netflix logo'/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" data-bs-toggle="button" className="toggle"></Navbar.Toggle>

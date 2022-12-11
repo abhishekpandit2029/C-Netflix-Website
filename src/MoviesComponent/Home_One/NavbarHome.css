@@ -17,13 +17,16 @@
     background-color: white;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 770px) {
     .Weblogo{
         height: 9vh;
     } 
     .toggle { 
        padding: 3px 5px; 
     }
+    .nav { 
+        padding: 10px 45px; 
+     }
 
 }
 
@@ -34,6 +37,9 @@
     .toggle { 
        padding: 2px 3px; 
     }
+    .nav { 
+        padding: 10px 20px; 
+     }
 
 }
 

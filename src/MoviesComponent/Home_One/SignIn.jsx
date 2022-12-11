@@ -39,7 +39,7 @@ function SignIn() {
             placeholder="Password"
             required
           />
-          <input type="button" className="signinbtn" value="Sign In" />
+          <button className="signinbtn text-light"><b>Sign In</b></button>
 
           <div className="firstLine">
             <div>
