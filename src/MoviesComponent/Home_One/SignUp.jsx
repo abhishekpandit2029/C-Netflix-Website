@@ -18,7 +18,7 @@ function SignUp() {
 
                 <div className="signup_secondLine text-light">
                     <input className='signup_input' type='Email' placeholder='Email address'/>
-                    <button className='signup_btn'>Get Started <KeyboardArrowRightTwoToneIcon/></button>
+                    <button className='signup_btn'>Get Started {'>'} </button>
                 </div>
             </div>
         </div>

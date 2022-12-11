@@ -9,7 +9,7 @@ import Navbar from 'react-bootstrap/Navbar';
  
 function NavbarHome() {
   return (
-    <div>
+    <div> 
         <Navbar expand="lg" className='nav px-5'>
             <Container fluid>
             <Navbar.Brand><img className='Weblogo' src={netflix_PNG} alt='Netflix logo'/></Navbar.Brand>
