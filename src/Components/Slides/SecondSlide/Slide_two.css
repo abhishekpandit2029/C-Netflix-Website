@@ -64,11 +64,11 @@
     font-weight: 100;
     font-size: 28px;
     line-height: 25px;
-    text-align: justify;
+    text-align: start;
   } 
   .even_leftside_one .even_leftside_one_linetwo{
     font-size: medium;
-    text-align: justify;
+    text-align: start;
   }  
 }
 

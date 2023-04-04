@@ -62,11 +62,11 @@
     font-weight: 100;
     font-size: 28px;
     line-height: 25px;
-    text-align: justify;
+    text-align: start;
   } 
   .leftside_one .leftside_one_linetwo{
     font-size: medium;
-    text-align: justify;
+    text-align: start;
   } 
   #tv_container_one img{
     top: -15px;
