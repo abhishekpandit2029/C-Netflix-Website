@@ -25,7 +25,9 @@ function Slide_one() {
         </Col>
       </Row>
     </Container>  
+    <div className="btmline"></div>
     </center>
+   
   );
 }
 

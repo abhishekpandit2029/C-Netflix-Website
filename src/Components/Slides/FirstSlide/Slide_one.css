@@ -4,8 +4,7 @@
   /* border: 2px solid wheat; */
   width: 100%;
   font-family: 'Alexandria', sans-serif;
-  color: white;
-  border-bottom: 8px solid #222; 
+  color: white; 
   display: flex;
   align-items: center;
 }
@@ -50,7 +49,7 @@
   } 
   #tv_container_one img{
     width: 55%;
-    top: -40px;
+    top: -40px; 
     left: 0;
   } 
 }
@@ -63,11 +62,29 @@
     font-weight: 100;
     font-size: 28px;
     line-height: 25px;
+    text-align: justify;
   } 
   .leftside_one .leftside_one_linetwo{
     font-size: medium;
+    text-align: justify;
   } 
   #tv_container_one img{
     top: -15px;
   } 
+}
+
+@media screen and (max-width: 575px) {
+  .leftside_one .leftside_one_lineone{
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 25px;
+  } 
+  .leftside_one .leftside_one_linetwo{
+    font-size: 16px;
+  } 
+}
+
+.btmline{
+  border-bottom: 1px solid rgb(85, 85, 85);
+  width: 80%;
 }

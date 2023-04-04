@@ -24,6 +24,7 @@ function Slide_two() {
           </Col>
         </Row>
       </Container>
+      <div className="btmline"></div>
     </center>
   );
 }

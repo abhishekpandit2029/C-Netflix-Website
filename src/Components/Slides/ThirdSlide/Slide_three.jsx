@@ -23,6 +23,7 @@ function Slide_three() {
           </Col>
         </Row>
       </Container>
+      <div className="btmline"></div>
     </center>
   );
 }

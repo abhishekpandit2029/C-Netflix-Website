@@ -5,7 +5,6 @@
   width: 100%;
   font-family: 'Alexandria', sans-serif;
   color: white;
-  border-bottom: 8px solid #222;
   display: flex;
   flex-flow: wrap-reverse;
   align-items: center;
@@ -65,8 +64,21 @@
     font-weight: 100;
     font-size: 28px;
     line-height: 25px;
+    text-align: justify;
   } 
   .even_leftside_one .even_leftside_one_linetwo{
     font-size: medium;
+    text-align: justify;
   }  
 }
+
+@media screen and (max-width: 575px) {
+    .even_leftside_one .even_leftside_one_lineone{
+      font-weight: 100;
+      font-size: 25px;
+      line-height: 25px;
+    } 
+    .even_leftside_one .even_leftside_one_linetwo{
+      font-size: 16px;
+    } 
+  }
