@@ -81,4 +81,7 @@
     .even_leftside_one .even_leftside_one_linetwo{
       font-size: 16px;
     } 
+    .even_leftside_one{ 
+      padding-left: 10px;
+    } 
   }

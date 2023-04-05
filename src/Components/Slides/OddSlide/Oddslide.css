@@ -82,6 +82,9 @@
   .leftside_one .leftside_one_linetwo{
     font-size: 16px;
   } 
+  .leftside_one{ 
+    padding-left: 10px;
+  } 
 }
 
 .btmline{
