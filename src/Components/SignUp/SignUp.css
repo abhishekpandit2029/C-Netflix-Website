@@ -49,7 +49,7 @@
 .signup_p2{
     font-size: 30px;
     font-family: 'Noto Sans Lao Looped', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 25px;
 }
 
@@ -70,7 +70,7 @@
 .signup_p3{
     font-size: 20px;
     font-family: 'Noto Sans Lao Looped', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 750px) {
@@ -104,31 +104,55 @@
 }
 
 .signup_btn{
-    width: 250px;
+    width: 220px;
     font-family: 'Noto Sans Lao Looped', sans-serif;
-    font-weight: 200;
+    font-weight: 600;
     font-size: x-large;
     background-color: #E50914;
     color: white;
+    border-radius: 5px;
 }
 
 .signup_input{
     width: 500px;
     padding: 20px;
+    margin-right: 20px;
+
+    background-color: black;
+    color: rgb(204, 203, 203);
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
-@media screen and (max-width: 850px), (max-width: 550px) {
+@media screen and (max-width: 850px){
+    .signup_btn{ 
+        height: 60px;
+        width: 160px; 
+        font-size:larger;
+    }
+    .signup_input{ 
+        height: 60px;
+        width: 400px;
+        font-size:larger;
+     }
+}
+
+@media screen and (max-width: 649px){
+    .signup_input{
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
     .signup_btn{ 
         height: 45px;
-        width: 160px;
-        font-size:medium;
+        width: 140px; 
+        font-size:large;
     }
-}
-
-@media screen and (max-width: 850px), (max-width: 550px) {
     .signup_input{ 
-       height: 50px;
-       width: 400px;
-       
-    }
+        height: 45px;
+        width: 350px;
+        font-size:large;
+        margin-bottom: 5px;
+     }
 }
