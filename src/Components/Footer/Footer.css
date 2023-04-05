@@ -25,19 +25,88 @@ a:hover{
     margin: 30px 0;
 }
 
+
+  
+/* .========================== */
+
+.signup_btm{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    padding: 50px 0 0 130px;
+}
+
+.text_btm{
+    font-size: larger;
+}
+
+.signup_secondLine_btm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.signup_secondLine_btm input{
+    background-color: black;
+    color: rgb(204, 203, 203);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.signup_btn_btm, .signup_input_btm{
+    height: 55px;
+    border: none;
+}
+
+.signup_btn_btm{
+    width: 170px;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    background-color: #E50914;
+    color: white;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.signup_input_btm{
+    width: 500px;
+    padding: 20px;
+    margin-right: 20px;
+}
+/* =================================== */
+
 @media screen and (max-width: 991px) {
     .Footer{
         padding: 80px; 
     } 
+    .signup_btm{
+        padding-left: 80px;
+    }
 }
   
 @media screen and (max-width: 770px) {
     .Footer{
         padding: 50px; 
     }    
+    .signup_btm{
+        padding-left: 50px;
+    }
+    .text_btm{
+        font-size: large;
+    }
 }
   
-@media screen and (max-width: 575px) {
-    
+@media screen and (max-width: 800px) {
+    .signup_btn_btm{
+        margin-top: 20px;
+    }
+    .signup_btn_btm, .signup_input_btm{
+        height: 45px;
+    }
+    .signup_btn_btm{
+        width: 140px;
+        font-size: large;
+    }
 }
-  
