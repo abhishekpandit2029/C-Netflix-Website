@@ -69,7 +69,7 @@
   .even_leftside_one .even_leftside_one_linetwo{
     font-size: medium;
     text-align: start;
-  }  
+  }   
 }
 
 @media screen and (max-width: 575px) {

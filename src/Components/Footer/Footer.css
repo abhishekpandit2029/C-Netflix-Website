@@ -1,0 +1,43 @@
+.Footer{
+    color: rgb(204, 203, 203); 
+    /* border: 2px solid red;  */
+    padding: 50px 0 50px 130px; 
+}
+
+ul li {
+    list-style-type:none;
+    line-height: 30px;
+}
+
+a{
+    color: rgb(204, 203, 203);
+}
+
+a:hover{
+    color: rgb(204, 203, 203);
+}
+
+.Row{
+    width: 100%;
+    /* border: 2px solid red; */
+    position: relative;
+    left: -55px;
+    margin: 30px 0;
+}
+
+@media screen and (max-width: 991px) {
+    .Footer{
+        padding: 80px; 
+    } 
+}
+  
+@media screen and (max-width: 770px) {
+    .Footer{
+        padding: 50px; 
+    }    
+}
+  
+@media screen and (max-width: 575px) {
+    
+}
+  
