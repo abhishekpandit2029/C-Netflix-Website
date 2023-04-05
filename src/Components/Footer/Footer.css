@@ -87,22 +87,6 @@ a:hover{
         padding-left: 80px;
     }
 }
-  
-@media screen and (max-width: 699px) {
-    .signup_btn_btm{
-        /* margin-top: 20px; */
-        width: 140px;
-        font-size: large;
-    }
-    .signup_btn_btm, .signup_input_btm{
-        height: 45px;
-    }
-}
-@media screen and (max-width: 670px) {
-    .signup_btn_btm{
-        margin-top: 10px;
-    }
-}
 
 @media screen and (max-width: 770px) {
     .Footer{
@@ -115,3 +99,24 @@ a:hover{
         font-size: large;
     }
 }
+  
+@media screen and (max-width: 699px) {
+    .signup_btn_btm{
+        /* margin-top: 20px; */
+        width: 140px;
+        font-size: large;
+    }
+    .signup_input_btm{
+        font-size: medium;
+    }
+    .signup_btn_btm, .signup_input_btm{
+        height: 45px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .signup_btn_btm{
+        margin-top: 10px;
+    }
+}
+
+

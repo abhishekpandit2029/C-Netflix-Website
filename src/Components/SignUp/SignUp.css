@@ -147,12 +147,12 @@
     .signup_btn{ 
         height: 45px;
         width: 140px; 
-        font-size:large;
+        font-size:medium;
     }
     .signup_input{ 
         height: 45px;
         width: 350px;
-        font-size:large;
+        font-size:medium;
         margin-bottom: 5px;
      }
 }
