@@ -1,6 +1,7 @@
 import React from 'react'
 import './SignUp.css'
-import Navbar from '../Navbar/Navbar'
+import Navbar from '../../Navbar/Navbar' 
+import { Link } from 'react-router-dom';
  
 function SignUp() {
   return (
@@ -16,7 +17,7 @@ function SignUp() {
 
                 <div className="signup_secondLine text-light">
                     <input className='signup_input' type='Email' placeholder='Email address'/>
-                    <button className='signup_btn'>Get Started {'>'} </button>
+                    <Link to='/signUpSec'><button className='signup_btn'>Get Started {'>'} </button></Link>
                 </div>
             </div>
         </div>

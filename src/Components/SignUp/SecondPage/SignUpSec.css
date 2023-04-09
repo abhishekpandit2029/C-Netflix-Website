@@ -1,0 +1,75 @@
+.SignUpSecSignin{
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+    text-decoration: none;
+}
+
+.signupsecbox{
+    height: 80vh;
+    /* border: 1px solid red; */
+    display: block;
+    color: white;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+}
+
+.signupseccontainer{
+    /* border: 1px solid red; */
+    margin: auto;
+    max-width: 500px;
+    padding: 0 30px;
+    line-height: 30px;
+}
+
+.signupsec_fline{
+    font-size: 13px;
+    margin-bottom: -1px;
+}
+
+.signupsec_sline{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+.signupsec_tline{
+    font-size: 18px;
+    line-height: 15px;
+}
+
+.signupsecform{
+    display: flex;
+    place-content: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 25px;
+    /* border: 1px solid red; */
+}
+
+.signupsecformbtn{
+    width: 450px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 575px) {    
+    .signupsec_fline{
+        font-size: 12px;
+    }
+    
+    .signupsec_sline{
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+    
+    .signupsec_tline{
+        font-size: 16px;
+        line-height: 10px;
+    }
+
+    .signupsecformbtn{
+        width: 150px;
+        margin-top: 15px;
+    }
+}

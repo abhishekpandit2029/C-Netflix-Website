@@ -7,18 +7,6 @@ import Col from "react-bootstrap/Col";
 function Footer() {
   return (
     <div>
-      <div className="signup_btm">
-        <p className="text_btm">Ready to watch? Enter your email to create or restart your membership.</p>
-        <div className="signup_secondLine_btm">
-          <input
-            className="signup_input_btm"
-            type="Email"
-            placeholder="Email address"
-          />
-          <button className="signup_btn_btm">Get Started {">"} </button>
-        </div>
-      </div>
-
       <div className="Footer">
         <p>Questions? Call 000-800-919-1694</p>
         <Container fluid>
