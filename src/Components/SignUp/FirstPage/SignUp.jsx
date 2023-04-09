@@ -20,7 +20,7 @@ function SignUp() {
                     <Link to='/signUpSec'><button className='signup_btn'>Get Started {'>'} </button></Link>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
   )
 }

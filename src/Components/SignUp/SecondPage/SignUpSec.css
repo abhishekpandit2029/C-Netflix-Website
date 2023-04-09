@@ -17,7 +17,7 @@
     /* border: 1px solid red; */
     margin: auto;
     max-width: 500px;
-    padding: 0 30px;
+    padding: 50px 30px 0;
     line-height: 30px;
 }
 
@@ -48,8 +48,7 @@
 }
 
 .signupsecformbtn{
-    width: 450px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 575px) {    
@@ -66,10 +65,5 @@
     .signupsec_tline{
         font-size: 16px;
         line-height: 10px;
-    }
-
-    .signupsecformbtn{
-        width: 150px;
-        margin-top: 15px;
     }
 }
