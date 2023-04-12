@@ -6,6 +6,7 @@ import SignIn from './Components/SignIn/SignIn';
 import SignUp from './Components/SignUp/FirstPage/SignUp';
 import SignUpSec from './Components/SignUp/SecondPage/SignUpSec';
 import SignUpThrd from './Components/SignUp/ThirdPage/SignUpThrd';
+import SignUpFrth from './Components/SignUp/ForthPage/SignUpFrth';
 
 const App = () => {
   return(
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path='/signUp' element={<SignUp/>}/>
                 <Route path='/signUpSec' element={<SignUpSec/>}/>
                 <Route path='/signUpThrd' element={<SignUpThrd/>}/>
+                <Route path='/signUpFrth' element={<SignUpFrth/>}/>
             </Routes>
     </BrowserRouter>
   )

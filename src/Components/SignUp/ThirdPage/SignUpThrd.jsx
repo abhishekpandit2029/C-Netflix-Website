@@ -37,7 +37,7 @@ function SignUpThrd() {
                         <p><CheckIcon className="checkIcon"/> No ads and no extra fees. Ever.</p>
                     </div>
 
-                    <Link to='/signUpThrd'><button className="signupsecformbtn signup_btn_btm">Next</button></Link>
+                    <Link to='/signUpFrth'><button className="signupsecformbtn signup_btn_btm">Next</button></Link>
                 </div>
             </div>
 

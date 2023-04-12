@@ -1,8 +1,15 @@
  .checkIconSection {
     line-height: 30px;
+    font-size: large;
  }
 
  .checkIcon {
      color: red;
      font-size: xx-large;
  }
+
+ @media screen and (max-width: 575px) {    
+    .checkIconSection {
+        font-size: medium;
+     }
+}

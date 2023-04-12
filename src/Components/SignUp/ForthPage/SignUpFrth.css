@@ -1,0 +1,29 @@
+.signupsecplan{
+    height: auto;
+    /* border: 1px solid red; */
+    display: block;
+    color: white;
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+}
+
+.signupseccontainerplan{
+    /* border: 1px solid red; */
+    margin: auto;
+    max-width: 1000px;
+    padding: 0px 30px;
+    line-height: 30px;
+}
+
+.checkpplan{
+    margin-bottom: 0px;
+}
+
+.planPassagebtm{
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 10px;
+}
+
+.planPassagebtm1{
+    margin-bottom: 5px;
+}

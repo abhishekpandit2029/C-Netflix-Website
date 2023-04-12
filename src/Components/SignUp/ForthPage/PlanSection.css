@@ -1,0 +1,190 @@
+.planCardsContainer{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+.planCardsBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 70px;
+    width: 600px;
+    /* border: 1px solid red; */
+} 
+
+.planCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    height: 95px;
+    border-radius: 5px;
+    padding: 25px 10px 10px;
+    margin-bottom: 15px;
+    /* border: 1px solid red; */
+    background: #E50914;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.PC{
+    color: #E50914;
+}
+
+/* ========================= */
+
+.planSection{
+    margin: 40px 0;
+}
+
+.plansecgroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 20px 0 20px 0;
+    max-width: 1000px;
+    border-bottom: 1px solid rgb(70, 69, 69);
+}
+
+.plansecgroup1{
+    display: flex;
+    word-wrap: break-word;
+}
+
+.plansecgroup2{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+    gap: 100px;
+    width: 600px;
+}
+
+.plansecgroupScreen{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    margin: 20px 0 20px 0;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+.plansecgroup3{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    width: auto;
+    gap: 115px;
+    width: 600px;
+    justify-content: space-evenly;
+}
+
+.plansecgroupScreengroup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.plansecgroup2m :nth-child(1){
+    padding-left: 15px;
+}
+.plansecgroup2m :nth-child(2){
+    padding-left: 20px;
+}
+.plansecgroup2m :nth-child(3){
+    padding-left: 15px;
+}
+.plansecgroup2m :nth-child(4){
+    padding-left: 1px;
+}
+
+@media screen and (max-width: 870px) {    
+    .plansecgroup{
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .plansecgroup2{
+        width: 100%;
+    }
+    .plansecgroupScreen{
+        flex-direction: column;
+        align-items: center;
+    }
+    .plansecgroup3{
+        width: 100%;
+    }
+    .planCardsContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .planCardsBox{
+        width: 100%;
+        gap: 8vw;
+    }
+    .plansecgroup1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 585px) {    
+    .plansecgroup2{
+        gap: 60px;
+    }
+
+    .plansecgroup, .plansecgroupScreen{
+        font-size: 14px;
+    }
+
+    .plansecgroup{
+        margin: 0px 0 5px 0;
+    }
+
+    .plansecgroup3{
+        gap: 70px;
+        margin-top: 15px;
+    }
+
+    .plansecgroup1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+
+    .plansecgroupScreengroup{
+        gap: 12px;
+    }
+
+    .planPassagebtm{
+        font-size: 11px;
+    }
+    .planCards{
+        min-width: 16vw;
+        height: 10vh;
+        font-size: 15px;
+    }
+    .planCardsBox{
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 461px) {    
+    .plansecgroup2{
+        gap: 26px;
+    }
+
+    .plansecgroup3{
+        gap: 40px;
+    }
+    .planCards{
+        min-width: 15vw;
+        height: 8vh;
+        font-size: 3.5vw;
+        padding: 25px 35px 10px;
+    }
+    .planCardsBox{
+        gap: 10px;
+    }
+}
