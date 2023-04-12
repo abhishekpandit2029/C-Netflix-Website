@@ -11,39 +11,23 @@
     display: inline;
     width: 165px;
     cursor: pointer;
-    /* border: 5px solid wheat; */
 }
 
 
-.signup_container{
+.signup_container{ 
     text-align: center;
-    margin: 90px 0 auto;
+    margin: 100px auto auto;
     padding: 20px;
     box-sizing: content-box;
-    
-    /* border: 5px solid wheat; */
+    /* border: 2px solid wheat; */
 
 }
  
 .signup_p1{
-    font-size: 63px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: bolder;
     font-family: 'Noto Sans Lao Looped', sans-serif;
     line-height: 60px;
-}
-
-@media screen and (max-width: 750px) {
-    .signup_p1 { 
-       font-size: 45px; 
-       line-height: 45px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .signup_p1 { 
-       font-size: 30px; 
-       line-height: 30px;
-    }
 }
 
 .signup_p2{
@@ -53,20 +37,6 @@
     margin-bottom: 25px;
 }
 
-@media screen and (max-width: 750px) {
-    .signup_p2 { 
-       font-size: 22.5px; 
-       margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .signup_p2 { 
-       font-size: 15px; 
-       margin-bottom: 5px;
-    }
-}
-
 .signup_p3{
     font-size: 20px;
     font-family: 'Noto Sans Lao Looped', sans-serif;
@@ -74,12 +44,28 @@
 }
 
 @media screen and (max-width: 750px) {
+    .signup_p1 { 
+        font-size: 45px; 
+        line-height: 45px;
+     }
+     .signup_p2 { 
+        font-size: 22.5px; 
+        margin-bottom: 20px;
+     }
     .signup_p3 { 
        font-size: 17px; 
     }
 }
 
 @media screen and (max-width: 550px) {
+    .signup_p1 { 
+        font-size: 30px; 
+        line-height: 30px;
+     }
+     .signup_p2 { 
+        font-size: 15px; 
+        margin-bottom: 5px;
+     }
     .signup_p3 { 
        font-size: 15px; 
     }
@@ -145,12 +131,12 @@
 
 @media screen and (max-width: 550px) {
     .signup_btn{ 
-        height: 45px;
+        height: 50px;
         width: 140px; 
         font-size:medium;
     }
     .signup_input{ 
-        height: 45px;
+        height: 50px;
         width: 350px;
         font-size:medium;
         margin-bottom: 5px;
